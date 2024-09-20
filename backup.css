@@ -1,0 +1,88 @@
+* {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: white;
+}
+
+/* Navbar Content START */
+#nav-contain {
+  padding: 2rem 0 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(30 41 59);
+}
+#nav-contain > h1 {
+  margin: 0 2rem 0 2rem;
+}
+.nav-list {
+  margin-right: 1rem;
+}
+.nav-list > a,
+i {
+  margin-right: 2rem;
+}
+/* Navbar Content END */
+
+/* div name START */
+#name {
+  border: green solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 2rem 0 2rem;
+}
+.btn-contact {
+  color: aliceblue;
+  background-color: rgb(76 29 149);
+  border-radius: 2rem;
+  padding: 12px;
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+  width: 30%;
+}
+.btn-contact:hover {
+  background-color: rgb(46 16 101);
+  transition-duration: 500ms;
+}
+.title {
+  color: aliceblue;
+  background-color: rgb(76 29 149);
+  margin-top: 16px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1rem;
+}
+#circle {
+  width: 16rem;
+  height: 16rem;
+  background-color: blueviolet;
+  border: red solid;
+  position: absolute;
+  border-radius: 100%;
+}
+.intro {
+  padding: 1rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  border: red solid;
+}
+
+.intro-img {
+  border-radius: 100%;
+  /* background-color: red; */
+  position: relative;
+  border: blue solid;
+  margin-right: 2rem;
+  width: 8rem;
+}
+/* div name END */

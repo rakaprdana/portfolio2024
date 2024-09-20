@@ -1,0 +1,113 @@
+* {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(15 23 42);
+}
+/* Navbar Content START */
+#nav-contain {
+  padding: 2rem 0 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: transparent;
+}
+#nav-contain > h1 {
+  background-color: transparent;
+  margin: 0 2rem 0 2rem;
+}
+.nav-list {
+  margin-right: 1rem;
+  background-color: transparent;
+}
+.nav-list > a,
+i {
+  margin-right: 2rem;
+  background-color: transparent;
+}
+/* Navbar Content END */
+
+/* div name START */
+#name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-contact {
+  border: none;
+  color: aliceblue;
+  background-color: rgb(76 29 149);
+  border-radius: 2rem;
+  padding: 12px;
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+  width: 30%;
+}
+.btn-contact:hover {
+  background-color: rgb(46 16 101);
+  transition-duration: 500ms;
+}
+.title {
+  color: aliceblue;
+  background-color: rgb(76 29 149);
+  margin-top: 16px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1rem;
+}
+.intro {
+  width: 40%;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-bottom: 16rem;
+  padding: 4rem;
+  font-size: 2rem;
+}
+#split-img {
+  background-color: #4a249d;
+  width: 30%;
+  padding: 8rem 4rem 0 4rem;
+  margin-bottom: 20rem;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.intro-img {
+  margin-right: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  background-color: transparent;
+}
+/* div name END */
+/* div summary START */
+#summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+#summary > img {
+  width: 40%;
+}
+
+.sum-desc {
+  box-shadow: 0 10px 15px -3px rgba(17, 17, 17, 0.746),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background-color: #4a249d;
+  border-radius: 2rem;
+  padding: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 20px;
+}
+/* div summary END */
