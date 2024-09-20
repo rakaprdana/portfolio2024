@@ -38,6 +38,8 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16rem;
+  height: 20rem;
 }
 .btn-contact {
   border: none;
@@ -90,6 +92,7 @@ i {
 /* div name END */
 /* div summary START */
 #summary {
+  margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
